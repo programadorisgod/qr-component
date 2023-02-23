@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Outfit&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+:root {
+    --family-body: "Outfit", sans-serif;
+}
+
+
+body {
+    font-family: var(--family-body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(220, 15%, 55%);
+
+}
+
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    height: 490px;
+    margin-top: 70px;
+    padding: 3px 10px;
+
+}
+
+.qr {
+    height: 250px;
+    width: 290px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.codigo {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.improve {
+    text-align: center;
+
+}
+
+.title {
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 0;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.scan {
+    padding: 11px;
+    margin-top: 0;
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(220, 15%, 55%);
+    margin-bottom: 30px;
+}
